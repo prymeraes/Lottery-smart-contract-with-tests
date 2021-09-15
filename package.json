@@ -1,0 +1,19 @@
+{
+  "name": "lottery",
+  "version": "2.0.0",
+  "description": "Lottery smart contract Node.js project.",
+  "main": "compile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Owan Hunte",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.2",
+    "solc": "^0.8.6",
+    "web3": "^1.4.0"
+  }
+}
